@@ -1,0 +1,4 @@
+module PRETTY_FAST_CONV {
+  header "pffastconv.h"
+  export *
+}

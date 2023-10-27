@@ -10,7 +10,8 @@ class FlutterPFFASTCONV {
       ? DynamicLibrary.open('libpffastconv.so')
       : DynamicLibrary.open('libpffastconv.dylib'));
 
-  List<double> fftconvolve(List<double> signal, List<double> fillter, {int blockLen = 0}) {
+  List<double> fftconvolve(List<double> signal, List<double> fillter,
+      {int blockLen = 0}) {
     final signalPtr = malloc<Float>(signal.length);
     final fillterPtr = malloc<Float>(fillter.length);
     final outputLength = signal.length + fillter.length - 1;
