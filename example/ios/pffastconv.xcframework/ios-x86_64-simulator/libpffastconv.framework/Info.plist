@@ -9,7 +9,7 @@
     <key>CFBundleExecutable</key>
     <string>libpffastconv</string>
     <key>CFBundleIdentifier</key>
-    <string>some.bundle.identifier</string>
+    <string>pffastconv.identifier</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

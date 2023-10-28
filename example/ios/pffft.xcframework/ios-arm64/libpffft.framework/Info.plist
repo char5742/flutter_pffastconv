@@ -9,7 +9,7 @@
     <key>CFBundleExecutable</key>
     <string>libpffft</string>
     <key>CFBundleIdentifier</key>
-    <string>ios-arm64</string>
+    <string>pffft.identifier</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
