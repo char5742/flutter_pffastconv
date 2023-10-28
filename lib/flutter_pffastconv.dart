@@ -8,7 +8,7 @@ import 'generated_bindings.dart';
 class FlutterPFFASTCONV {
   final _library = PFFASTCONVLibrary(Platform.isAndroid
       ? DynamicLibrary.open('libpffastconv.so')
-      : DynamicLibrary.open('libpffastconv.dylib'));
+      : DynamicLibrary.process());
 
   List<double> fftconvolve(List<double> signal, List<double> fillter,
       {int blockLen = 0}) {

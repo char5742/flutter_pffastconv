@@ -1,0 +1,4 @@
+framework module pffft {
+  umbrella header "pffft.h"
+  export *
+}
